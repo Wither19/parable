@@ -58,9 +58,11 @@ span:hover img {
 }
 span.prev {
     text-align: left;
+    float: left;
 }
 span.next {
     text-align: right;
+    float: right;
 }
 .blocked {
     color: gray;
@@ -70,6 +72,8 @@ span.next {
     position: relative;
     top: 6px;
     left: 1px;
+    text-align: inherit;
+    float: inherit;
 }
 .blocked:hover > img {
     width: 40px;
