@@ -29,6 +29,7 @@ text {
     font-family: 'Lato', sans-serif;
     text-align:center;
     font-size: 30px;
+    display: block;
 }
 a {
     text-align:center;
