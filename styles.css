@@ -18,14 +18,14 @@ header:hover, main:hover, footer:hover {
 }
 header {
     margin: 20px auto 20px auto;
-    font-size:48px;
+    font-size:1.5em;
     width: 75%;
     text-align:center;
 }
 text {
     font-family: 'Lato', sans-serif;
     text-align:center;
-    font-size: 30px;
+    font-size: 1.05em;
     display: block;
 }
 a {
@@ -33,32 +33,6 @@ a {
     transition: all 200ms;
 }
 a:hover {
-    font-size: 28px;
-}
-@media screen and (max-height: 768px) {
-    body {
-    background-image: url(https://th.bing.com/th/id/R.a1e8090b82438e8398375f791543fa1d?rik=nF954yOu7fSvUA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fke5GFrZ.jpg&ehk=d4y2zX4brfZm6t4e8zMQ6NkA1IPyLpIfbQE1FhG9vFM%3d&risl=&pid=ImgRaw&r=0);
-    background-attachment: fixed;
-    width: 1366px;
-    height: 768px;
-    }
-    header {
-    margin: 20px auto 20px auto;
-    font-size:48px;
-    width: 50%;
-    text-align:center;
-    }
-    text {
-    font-family: 'Lato', sans-serif;
-    text-align:center;
-    font-size: 30px;
-    display: block;
-    }
-    a {
-    text-align:center;   
-    transition: all 200ms;
-    }
-    a:hover {
-    font-size: 28px;
-    }
+    font-size: 1.2em;
+    text-decoration: none;
 }
