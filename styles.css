@@ -38,8 +38,15 @@ a {
 a:hover {
     font-size: 1.2em;
 }
-span > a {
+span  a {
     font-size: 1.35em;
+    transition: all 200ms;
+}
+span:hover a { 
+    font-size: 1.45em;
+}
+span:hover img {
+    width: 120px;
 }
 span.prev {
 text-align: left;
@@ -49,6 +56,7 @@ text-align:right;
 }
 span img {
     width: 80px;
+    transition: all 200ms;
 }
 @media screen and (max-height: 768px) {
     body {
