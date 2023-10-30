@@ -25,7 +25,7 @@ header {
 }
 footer {
     margin: 20px auto 40px auto;
-    padding:30px 30px 60px 30px;
+    padding:30px 30px 80px 30px;
 }
 text {
     font-family: 'Lato', sans-serif;
@@ -54,7 +54,7 @@ span img {
     transition: all 200ms;
 }
 span:hover img {
-    width: 50px;
+    width: 80px;
  }
 span.prev {
     text-align: left;
@@ -73,7 +73,7 @@ span.next {
     float: inherit;
 }
 .blocked:hover > img {
-    width: 50px;
+    width: 80px;
 }
 @media screen and (max-height: 768px) {
     body {
