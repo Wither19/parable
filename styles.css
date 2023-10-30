@@ -25,6 +25,7 @@ header {
 }
 footer {
     margin: 20px auto 40px auto;
+    padding:30px;
 }
 text {
     font-family: 'Lato', sans-serif;
