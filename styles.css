@@ -65,7 +65,7 @@ text-align:right;
     filter: blur(8px);
 }
 .blocked:hover > img {
-    width: 80px;
+    width: 40px;
 }
 @media screen and (max-height: 768px) {
     body {
