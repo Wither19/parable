@@ -38,6 +38,18 @@ a {
 a:hover {
     font-size: 1.2em;
 }
+span {
+    font-size: 1.35em;
+}
+span.prev {
+text-align: left;
+}
+span.next {
+text-align:right;
+}
+span svg {
+    width: 80px;
+}
 @media screen and (max-height: 768px) {
     body {
     background-image: url(https://th.bing.com/th/id/R.a1e8090b82438e8398375f791543fa1d?rik=nF954yOu7fSvUA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fke5GFrZ.jpg&ehk=d4y2zX4brfZm6t4e8zMQ6NkA1IPyLpIfbQE1FhG9vFM%3d&risl=&pid=ImgRaw&r=0);
@@ -50,6 +62,6 @@ a:hover {
     width: 40%;
     }
     text {
-    font-size: 30px;
+    font-size: 1.05px;
     }
 }
