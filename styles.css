@@ -48,9 +48,13 @@ span:hover a {
 span img {
     width: 40px;
     transition: all 200ms;
+    position:relative;
+    top:6px;
+    left:3px;
 }
 span:hover img {
     width: 50px;
+    top: 12px;
 }
 span.prev {
 text-align: left;
@@ -63,9 +67,14 @@ text-align:right;
 }
 .blocked > img {
     filter: blur(8px);
+    position: relative;
+    top: 6px;
+    left: 1px;
 }
 .blocked:hover > img {
     width: 40px;
+    top: 6px;
+    left: 1px;
 }
 @media screen and (max-height: 768px) {
     body {
