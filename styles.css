@@ -3,6 +3,7 @@ body {
     background-attachment: fixed;
     width: 1920px;
     height: 1080px;
+    backdrop-filter: blur(3px);
 }
 header, main, footer {
     border: solid 10px ghostwhite;
