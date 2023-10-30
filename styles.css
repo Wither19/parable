@@ -23,6 +23,9 @@ header {
     width: 75%;
     text-align:center;
 }
+footer {
+    margin: 20px auto 40px auto;
+}
 text {
     font-family: 'Lato', sans-serif;
     text-align:center;
