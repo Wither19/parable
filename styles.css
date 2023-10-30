@@ -66,6 +66,7 @@ span.next {
 }
 .blocked {
     color: gray;
+    cursor: not-allowed;
 }
 .blocked > img {
     filter: contrast(175%);
