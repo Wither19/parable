@@ -38,7 +38,7 @@ a {
 a:hover {
     font-size: 1.2em;
 }
-span {
+span > a {
     font-size: 1.35em;
 }
 span.prev {
