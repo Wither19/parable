@@ -46,11 +46,11 @@ span:hover a {
     font-size: 1.45em;
 }
 span img {
-    width: 80px;
+    width: 40px;
     transition: all 200ms;
 }
 span:hover img {
-    width: 90px;
+    width: 50px;
 }
 span.prev {
 text-align: left;
