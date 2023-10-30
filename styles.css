@@ -47,7 +47,7 @@ text-align: left;
 span.next {
 text-align:right;
 }
-span svg {
+span img {
     width: 80px;
 }
 @media screen and (max-height: 768px) {
