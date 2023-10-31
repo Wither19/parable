@@ -39,6 +39,9 @@ footer {
 sup {
     padding: 0px 8px 0px 8px;
 }
+text em {
+    line-height: 200%;
+}
 text {
     font-family: 'Lato', sans-serif;
     text-align:center;
