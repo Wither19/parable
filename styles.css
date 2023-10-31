@@ -32,6 +32,9 @@ footer {
     padding:30px 30px 40px 30px;
     width: 85%;
 }
+sup {
+    padding: 0px 8px 0px 8px;
+}
 text {
     font-family: 'Lato', sans-serif;
     text-align:center;
