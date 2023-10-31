@@ -107,13 +107,13 @@ span.next {
 text#left {
     position: relative;
     top: 24px;
-    left: -600px;
+    left: -650px;
 }
 
 text#right {
     position: relative;
     top: -5px;
-    left: 500px;
+    left: 450px;
 }
 @media screen and (max-height: 768px) {
     body {
