@@ -84,6 +84,9 @@ span.next {
     color: gray;
     cursor: not-allowed;
 }
+.blocked:hover {
+    translate: none;
+}
 .blocked > img {
     text-align: inherit;
     float: inherit;
