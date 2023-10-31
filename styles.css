@@ -13,7 +13,7 @@ header, main, footer {
     margin: 10px auto 10px auto;
     color: rgba(144, 73, 0, 1);
     background-color: rgba(255, 242, 169, 0.87);
-    transition: background-color 300ms;
+    transition: background-color 500ms;
 }
 header:hover, main:hover, footer:hover {
     background-color: rgba(255, 242, 169, 1);
@@ -29,7 +29,7 @@ main {
 }
 footer {
     margin: 20px auto 40px auto;
-    padding:30px 30px 80px 30px;
+    padding:30px 30px 40px 30px;
     width: 85%;
 }
 text {
@@ -47,6 +47,9 @@ a {
 }
 a:hover {
     font-size: 1.4em;
+}
+a:visited {
+    color: blue;
 }
 span  a {
     font-size: 1.6em;
@@ -67,14 +70,14 @@ span.prev {
     text-align: left;
     float: left;
     position: relative;
-    top: 30px;
+    top: 10px;
     left: 32px;
 }
 span.next {
     text-align: right;
     float: right;
     position: relative;
-    top: -30px;
+    top: -50px;
     left: -36px;
 }
 .blocked {
@@ -90,13 +93,13 @@ span.next {
 }
 text#left {
     position: relative;
-    top: 44px;
+    top: 24px;
     left: -500px;
 }
 
 text#right {
     position: relative;
-    top: 10px;
+    top: -5px;
     left: 450px;
 }
 @media screen and (max-height: 768px) {
