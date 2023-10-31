@@ -38,6 +38,7 @@ a {
     text-align:center;
     transition: all 200ms;
     text-decoration: none;
+    font-weight: 700;
 }
 a:hover {
     font-size: 1.4em;
@@ -45,6 +46,7 @@ a:hover {
 span  a {
     font-size: 1.6em;
     transition: all 200ms;
+    font-weight: 700;
 }
 span:hover a { 
     font-size: 1.65em;
