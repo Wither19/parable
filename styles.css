@@ -107,7 +107,7 @@ span.next {
 text#left {
     position: relative;
     top: 24px;
-    left: -550px;
+    left: 550px;
 }
 
 text#right {
