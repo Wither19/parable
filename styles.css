@@ -49,6 +49,11 @@ text {
     display: block;
     line-height: 150%;
 }
+h1 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
 a {
     text-align:center;
     transition: all 200ms;
