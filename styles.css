@@ -156,4 +156,15 @@ hl:hover {
     text {
     font-size: 1.5em;
     }
+    iframe.video {
+        transition: all 300ms;
+        text-align: center;
+        margin: 0px 230px;
+        width: 480px;
+        height: 270px;
+    }
+    iframe.video:hover {
+        filter: drop-shadow(4px 4px 2px darkslategray) drop-shadow(6px 6px 1px lightgray);
+        transform: translate(6px 6px);
+    }
 }
