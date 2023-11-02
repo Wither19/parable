@@ -126,7 +126,7 @@ h1 {
 iframe.video {
         transition: all 300ms;
         text-align: center;
-        margin: 0px 40px;
+        margin: 0px 240px;
         width: 960px;
         height: 540px;
     }
