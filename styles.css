@@ -130,8 +130,8 @@ iframe.video {
         width: 960px;
         height: 540px;
     }
-iframe:hover {
-        filter: drop-shadow(4px 4px 2px darkslategray) drop-shadow(8px 8px 2px);
+iframe.video:hover {
+        filter: drop-shadow(4px 4px 2px darkslategray) drop-shadow(6px 6px 1px lightgray);
         transform: translate(6px 6px);
     }
 @media screen and (max-height: 768px) {
