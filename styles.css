@@ -143,7 +143,7 @@ hl:hover {
     color: lightslategray;
 }
 hl:hover sup {
-    color: brown;
+    color: blue;
 }
 @media screen and (max-height: 768px) {
     body {
