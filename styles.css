@@ -52,7 +52,7 @@ text {
     display: block;
     line-height: 150%;
 }
-h1 {
+h1, h2 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     font-weight: 500;
