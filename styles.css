@@ -145,6 +145,13 @@ hl:hover {
 hl:hover sup {
     color: blue;
 }
+hr {
+    border-top: brown;
+    border-style: double;
+    border-width: 4px;
+    border-radius: 30px;
+    width: 85%;
+}
 @media screen and (max-height: 768px) {
     body {
     background-image: url(https://th.bing.com/th/id/R.a1e8090b82438e8398375f791543fa1d?rik=nF954yOu7fSvUA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fke5GFrZ.jpg&ehk=d4y2zX4brfZm6t4e8zMQ6NkA1IPyLpIfbQE1FhG9vFM%3d&risl=&pid=ImgRaw&r=0);
@@ -165,3 +172,4 @@ hl:hover sup {
         height: 270px;
     }
 }
+
