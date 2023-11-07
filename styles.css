@@ -161,8 +161,8 @@ hr {
 img + .locmark img {
     position: absolute;
     z-index: 1;
-    top: 1200px;
-    left: 840px;
+    top: 1075px;
+    left: 662px;
     opacity: 0;
     transition: 500ms;
 }
@@ -172,7 +172,8 @@ img:hover + .locmark img {
 }
 
 .locmark img:hover {
-    transform: translate(0px, -8px) scale(1.5);
+    transform: translate(0px, -16px) scale(1.5) rotateY(720deg);
+    filter: brightness(200%);
     opacity: 1;
 }
 @media screen and (max-height: 768px) {
