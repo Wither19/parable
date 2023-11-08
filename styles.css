@@ -180,6 +180,7 @@ img:hover + .locmark img {
     border: 2px solid brown;
     transition: 400ms;
     filter: blur(1.5px);
+    margin: 10px !important;
     transform-style: preserve-3d;
   }
   .gallery img:nth-child(1):hover {
@@ -216,5 +217,9 @@ img:hover + .locmark img {
         width: 480px;
         height: 270px;
     }
+  img + .locmark img {
+    top: 1170px;
+    left: 460px;
+  }
 }
 
