@@ -176,6 +176,27 @@ img:hover + .locmark img {
     filter: brightness(200%);
     opacity: 1;
 }
+  .gallery img {
+    border: 2px solid brown;
+    transition: 400ms;
+    filter: blur(1.5px);
+    transform-style: preserve-3d;
+  }
+  .gallery img:nth-child(1):hover {
+    border: 12px double brown;
+    filter: blur(0px) drop-shadow(6px 6px 2px gray);
+    transform: scale(1.2);
+  }
+  .gallery img:nth-child(2):hover {
+    border: 12px groove brown;
+    filter: blur(0px) drop-shadow(6px 6px 2px gray);
+    transform: rotate3D(0, 0, 1, 3deg);
+  }
+  .gallery img:nth-child(3):hover {
+    border: 12px inset brown;
+    filter: blur(0px) drop-shadow(6px 6px 2px gray);
+    transform: translate(0px, -10px);
+  }
 @media screen and (max-height: 768px) {
     body {
     background-image: url(https://th.bing.com/th/id/R.a1e8090b82438e8398375f791543fa1d?rik=nF954yOu7fSvUA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fke5GFrZ.jpg&ehk=d4y2zX4brfZm6t4e8zMQ6NkA1IPyLpIfbQE1FhG9vFM%3d&risl=&pid=ImgRaw&r=0);
