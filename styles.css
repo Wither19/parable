@@ -100,11 +100,11 @@ span.next {
     left: -36px;
 }
 .blocked {
-    color: gray;
+    color: gray !important;
     cursor: not-allowed;
 }
 .blocked:hover {
-    translate: none;
+    transform: none !important;
 }
 .blocked > img {
     text-align: inherit;
