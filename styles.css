@@ -105,7 +105,7 @@ span.next {
 }
 .blocked:hover {
     transform: none !important;
-    font-size: 1.25em;
+    font-size: 1.25em !important;
 }
 .blocked > img {
     text-align: inherit;
