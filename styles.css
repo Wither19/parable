@@ -184,17 +184,17 @@ img:hover + .locmark img {
     margin: 10px !important;
     transform-style: preserve-3d;
   }
-  .gallery img:nth-child(1):hover {
+  .gallery img:nth-child(1):active {
     border: 12px double brown;
     filter: blur(0px) drop-shadow(6px 6px 2px gray);
     transform: scale(1.2);
   }
-  .gallery img:nth-child(2):hover {
+  .gallery img:nth-child(2):active {
     border: 12px groove brown;
     filter: blur(0px) drop-shadow(6px 6px 2px gray);
     transform: rotate3D(0, 0, 1, 3deg);
   }
-  .gallery img:nth-child(3):hover {
+  .gallery img:nth-child(3):active {
     border: 12px inset brown;
     filter: blur(0px) drop-shadow(6px 6px 2px gray);
     transform: translate(0px, -10px);
@@ -223,4 +223,3 @@ img:hover + .locmark img {
     left: 460px;
   }
 }
-
